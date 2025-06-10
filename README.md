@@ -2,6 +2,8 @@
 
 ## TL;DR 🚀
 
+Check out the live demo at http://184.169.154.221:3000/ or run it locally using Docker Compose.
+
 Next.js, FastAPI, EKS, LLM with Agentic LangGraph Text Summarizer
 
 1. **Prerequisites**
@@ -10,7 +12,7 @@ Next.js, FastAPI, EKS, LLM with Agentic LangGraph Text Summarizer
 2. **Clone & Run**
 
    ```bash
-   git clone https://github.com/thiago-allue/summarizer
+   git clone https://github.com/thiago-allue/ai_summarizer
    cd ai-chat-ui
    docker-compose up --build -d
    ```
