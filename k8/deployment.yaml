@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ai-app
+  template:
+    metadata:
+      labels:
+        app: ai-app
+    spec:
+      containers:
+        - name: fastapi-container
+          image: my-fastapi-image:latest
+          ports:
+            - containerPort: 6677
+        - name: nextjs-container
+          image: my-nextjs-image:latest
+          ports:
+            - containerPort: 3000

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ai-app-service
+spec:
+  selector:
+    app: ai-app
+  ports:
+    - name: fastapi
+      protocol: TCP
+      port: 6677
+      targetPort: 6677
+    - name: nextjs
+      protocol: TCP
+      port: 3000
+      targetPort: 3000
+  type: ClusterIP
