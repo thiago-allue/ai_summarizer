@@ -2,9 +2,9 @@
 
 ## TL;DR 🚀
 
-Check out the live demo at http://184.169.154.221:3000/ or run it locally using Docker Compose.
-
 Next.js, FastAPI, EKS, LLM with Agentic LangGraph Text Summarizer
+
+Check out the live demo at http://184.169.154.221:3000/ or run it locally using Docker Compose.
 
 1. **Prerequisites**
 
