@@ -2,6 +2,8 @@
 
 ## TL;DR 🚀
 
+Next.js, FastAPI, EKS, LLM with Agentic LangGraph Text Summarizer
+
 1. **Prerequisites**
 
    * Install [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/).
