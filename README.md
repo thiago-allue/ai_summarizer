@@ -13,7 +13,7 @@ Check out the live demo at http://184.169.154.221:3000/ or run it locally using 
 
    ```bash
    git clone https://github.com/thiago-allue/ai_summarizer
-   cd ai-chat-ui
+   cd ai_summarize
    docker-compose up --build -d
    ```
 3. **Access**
